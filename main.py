@@ -7,3 +7,4 @@ def home():
     return {"message": "Hello, FastAPI!"}
 
 # Learning Git and GitHub
+# Practicing Git commands
