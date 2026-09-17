@@ -5,3 +5,5 @@ app = FastAPI()
 @app.get("/")
 def home():
     return {"message": "Hello, FastAPI!"}
+
+# Learning Git and GitHub
