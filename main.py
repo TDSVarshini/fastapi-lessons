@@ -5,6 +5,7 @@ app = FastAPI()
 @app.get("/")
 def home():
     return {"message": "Hello, FastAPI!"}
-
+# Change made remotely
 # Learning Git and GitHub
-# Practicing Git commands# This change is only on my feature branch
+# Practicing Git commands
+# This change is only on my feature branch
