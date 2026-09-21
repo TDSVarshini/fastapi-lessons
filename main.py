@@ -11,3 +11,7 @@ def home():
 # This change is only on my feature branch
 # Change made on main before rebase
 # Cherry-pick this change
+
+@app.get("/hello")
+def hello():
+    return {"message": "Hello from the team!"}
