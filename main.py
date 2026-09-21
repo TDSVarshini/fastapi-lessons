@@ -14,4 +14,4 @@ def home():
 
 @app.get("/hello")
 def hello():
-    return {"message": "Hello from the team!"}
+    return {"message": "Hello, World!"}
